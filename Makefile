@@ -4,6 +4,7 @@ LDLIBS = -lm
 
 TARGETS = \
 	beeramid \
+	bin_to_decimal \
 	boolean_to_string \
 	number_proper_fractions \
 	personalized_message \
