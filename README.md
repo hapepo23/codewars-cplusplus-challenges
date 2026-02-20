@@ -29,6 +29,7 @@ My published Codewars solutions in this repository have been copied and misused 
 1. [<4 kyu> Number of Proper Fractions with Denominator d](https://www.codewars.com/kata/55b7bb74a0256d4467000070) - Solution: [number_proper_fractions.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/number_proper_fractions.cpp)
 1. [<5 kyu> Beeramid](https://www.codewars.com/kata/51e04f6b544cf3f6550000c1) - Solution: [beeramid.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/beeramid.cpp)
 1. [<8 kyu> Convert boolean values to strings 'Yes' or 'No'.](https://www.codewars.com/kata/53369039d7ab3ac506000467) - Solution: [boolean_to_string.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/boolean_to_string.cpp)
+1. [<8 kyu> Personalized Message](https://www.codewars.com/kata/5772da22b89313a4d50012f7) - Solution: [personalized_message.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/personalized_message.cpp)
 1. [<8 kyu> Sum Arrays](https://www.codewars.com/kata/53dc54212259ed3d4f00071c) - Solution: [sum_arrays.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/sum_arrays.cpp)
 1. [<8 kyu> Third Angle of a Triangle](https://www.codewars.com/kata/5a023c426975981341000014) - Solution: [third_angle_triangle.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/third_angle_triangle.cpp)
 

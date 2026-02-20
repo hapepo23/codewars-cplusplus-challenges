@@ -6,6 +6,7 @@ TARGETS = \
 	beeramid \
 	boolean_to_string \
 	number_proper_fractions \
+	personalized_message \
 	sum_arrays \
 	third_angle_triangle
 
