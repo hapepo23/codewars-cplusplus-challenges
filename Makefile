@@ -7,8 +7,10 @@ TARGETS = \
 	bin_to_decimal \
 	boolean_to_string \
 	number_proper_fractions \
+	number_to_string \
 	personalized_message \
 	smallest_value \
+	string_reverse \
 	sum_arrays \
 	third_angle_triangle
 
