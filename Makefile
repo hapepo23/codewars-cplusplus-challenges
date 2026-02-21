@@ -6,6 +6,7 @@ TARGETS = \
 	beeramid \
 	bin_to_decimal \
 	boolean_to_string \
+	disemvowel \
 	is_square \
 	mumbling \
 	number_proper_fractions \
