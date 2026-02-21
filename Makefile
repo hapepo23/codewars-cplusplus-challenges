@@ -9,6 +9,7 @@ TARGETS = \
 	number_proper_fractions \
 	number_to_string \
 	personalized_message \
+	positive_sum \
 	smallest_value \
 	string_reverse \
 	sum_arrays \
