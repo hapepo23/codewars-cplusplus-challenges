@@ -13,19 +13,14 @@ class Accumul {
 };
 
 std::string Accumul::accum(const std::string& s) {
-  std::string result{""};
-  int l = s.length();
-  result.reserve((l * (l + 1)) / 2 + l);
-  int n{0};
-  for (const char& c : s) {
-    n++;
-    char cl = tolower(c);
-    if (n > 1)
+  std::string result;
+  const size_t l = s.size();
+  result.reserve((l * (l + 1)) / 2 + l - 1);
+  for (size_t i = 0; i < l; ++i) {
+    if (i > 0)
       result += '-';
-    result += toupper(c);
-    for (int i = 1; i < n; i++) {
-      result += cl;
-    }
+    result += static_cast<char>(std::toupper(s[i]));
+    result.append(i, static_cast<char>(std::tolower(s[i])));
   }
   return result;
 }
