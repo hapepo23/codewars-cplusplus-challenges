@@ -6,6 +6,7 @@ TARGETS = \
 	beeramid \
 	bin_to_decimal \
 	boolean_to_string \
+	correct_time_string \
 	disemvowel \
 	is_square \
 	mumbling \
