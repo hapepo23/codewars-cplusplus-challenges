@@ -7,6 +7,7 @@ TARGETS = \
 	bin_to_decimal \
 	boolean_to_string \
 	is_square \
+	mumbling \
 	number_proper_fractions \
 	number_to_string \
 	personalized_message \
