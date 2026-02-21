@@ -6,6 +6,7 @@ TARGETS = \
 	beeramid \
 	bin_to_decimal \
 	boolean_to_string \
+	is_square \
 	number_proper_fractions \
 	number_to_string \
 	personalized_message \
