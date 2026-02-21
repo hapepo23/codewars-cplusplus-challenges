@@ -14,6 +14,8 @@ class Accumul {
 
 std::string Accumul::accum(const std::string& s) {
   std::string result{""};
+  int l = s.length();
+  result.reserve((l * (l + 1)) / 2 + l);
   int n{0};
   for (const char& c : s) {
     n++;
