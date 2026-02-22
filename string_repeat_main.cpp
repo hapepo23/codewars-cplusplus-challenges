@@ -11,7 +11,7 @@ std::string repeat_str(size_t repeat, const std::string& str);
 
 static void do_test(size_t repeat,
                     const std::string& str,
-                    const std::string expected) {
+                    const std::string& expected) {
   std::string actual = repeat_str(repeat, str);
   std::cout << "Repeat  : " << repeat << std::endl
             << "String  : \"" << str << "\"" << std::endl
