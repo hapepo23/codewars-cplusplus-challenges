@@ -15,6 +15,7 @@ TARGETS = \
 	personalized_message \
 	positive_sum \
 	smallest_value \
+	string_matchup \
 	string_reverse \
 	sum_arrays \
 	third_angle_triangle
