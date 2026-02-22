@@ -14,6 +14,7 @@ TARGETS = \
 	number_to_string \
 	personalized_message \
 	positive_sum \
+	same_arrays \
 	smallest_value \
 	string_matchup \
 	string_reverse \
