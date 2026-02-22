@@ -17,6 +17,7 @@ TARGETS = \
 	same_arrays \
 	smallest_value \
 	string_matchup \
+	string_repeat \
 	string_reverse \
 	sum_arrays \
 	sum_of_parts \
