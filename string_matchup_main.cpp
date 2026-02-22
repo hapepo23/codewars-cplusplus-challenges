@@ -31,7 +31,8 @@ static void do_test(const VS& a, const VS& b, const VI& expected) {
   cout_vector(expected);
   std::cout << "Actual  : ";
   cout_vector(actual);
-  std::cout << std::endl;
+  std::cout << "-> " << (expected == actual ? "OK" : "FAIL") << std::endl
+            << std::endl;
 }
 
 int main() {

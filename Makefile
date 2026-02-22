@@ -18,6 +18,7 @@ TARGETS = \
 	string_matchup \
 	string_reverse \
 	sum_arrays \
+	sum_of_parts \
 	third_angle_triangle
 
 .PHONY: all clean reformat run vrun
