@@ -9,6 +9,7 @@ TARGETS = \
 	class_creation_skills \
 	correct_time_string \
 	disemvowel \
+	how_good_really \
 	is_square \
 	mumbling \
 	number_proper_fractions \
