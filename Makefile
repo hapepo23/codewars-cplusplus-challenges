@@ -17,6 +17,7 @@ TARGETS = \
 	positive_sum \
 	same_arrays \
 	smallest_value \
+	split_strings \
 	string_matchup \
 	string_remove_first_last_char \
 	string_repeat \
