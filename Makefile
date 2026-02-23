@@ -6,6 +6,7 @@ TARGETS = \
 	beeramid \
 	bin_to_decimal \
 	boolean_to_string \
+	class_creation_skills \
 	correct_time_string \
 	disemvowel \
 	is_square \
