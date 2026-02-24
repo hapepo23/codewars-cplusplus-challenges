@@ -13,6 +13,7 @@ TARGETS = \
 	how_good_really \
 	isograms \
 	is_square \
+	most_frequent_item_count \
 	mumbling \
 	number_proper_fractions \
 	number_to_string \
