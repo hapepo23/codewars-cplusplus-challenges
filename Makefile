@@ -20,6 +20,7 @@ TARGETS = \
 	personalized_message \
 	population_growth \
 	positive_sum \
+	remove_array_values \
 	same_arrays \
 	smallest_value \
 	split_strings \
