@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -std=c++17 -g -O0 -Wall -Wextra
+CXXFLAGS = -std=c++23 -g -O0 -Wall -Wextra
 LDLIBS = -lm
 
 TARGETS = \
