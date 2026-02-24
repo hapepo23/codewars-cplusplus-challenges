@@ -18,6 +18,7 @@ TARGETS = \
 	number_proper_fractions \
 	number_to_string \
 	personalized_message \
+	polygon_area_inside_circle \
 	population_growth \
 	positive_sum \
 	remove_array_values \
