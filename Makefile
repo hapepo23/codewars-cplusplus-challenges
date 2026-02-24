@@ -17,6 +17,7 @@ TARGETS = \
 	number_proper_fractions \
 	number_to_string \
 	personalized_message \
+	population_growth \
 	positive_sum \
 	same_arrays \
 	smallest_value \

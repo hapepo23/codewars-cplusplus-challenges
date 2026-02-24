@@ -35,6 +35,7 @@ My published Codewars solutions (in C) have been copied and misused in other Git
 1. [<7 kyu> Correct the time-string](https://www.codewars.com/kata/57873ab5e55533a2890000c7) - Solution: [correct_time_string.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/correct_time_string.cpp)
 1. [<7 kyu> Descending Order](https://www.codewars.com/kata/5467e4d82edf8bbf40000155) - Solution: [descending_order.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/descending_order.cpp)
 1. [<7 kyu> Disemvowel Trolls](https://www.codewars.com/kata/52fba66badcd10859f00097e) - Solution: [disemvowel.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/disemvowel.cpp)
+1. [<7 kyu> Growth of a Population](https://www.codewars.com/kata/563b662a59afc2b5120000c6) - Solution: [population_growth.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/population_growth.cpp)
 1. [<7 kyu> Isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1) - Solution: [isograms.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/isograms.cpp)
 1. [<7 kyu> Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039) - Solution: [mumbling.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/mumbling.cpp)
 1. [<7 kyu> String matchup](https://www.codewars.com/kata/59ca8e8e1a68b7de740001f4) - Solution: [string_matchup.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/string_matchup.cpp)
