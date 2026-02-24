@@ -8,6 +8,7 @@ TARGETS = \
 	boolean_to_string \
 	class_creation_skills \
 	correct_time_string \
+	descending_order \
 	disemvowel \
 	how_good_really \
 	is_square \
