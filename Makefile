@@ -11,6 +11,7 @@ TARGETS = \
 	descending_order \
 	disemvowel \
 	how_good_really \
+	isograms \
 	is_square \
 	mumbling \
 	number_proper_fractions \
