@@ -28,6 +28,7 @@ My published Codewars solutions (in C) have been copied and misused in other Git
 
 1. [<4 kyu> Number of Proper Fractions with Denominator d](https://www.codewars.com/kata/55b7bb74a0256d4467000070) - Solution: [number_proper_fractions.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/number_proper_fractions.cpp)
 1. [<5 kyu> Beeramid](https://www.codewars.com/kata/51e04f6b544cf3f6550000c1) - Solution: [beeramid.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/beeramid.cpp)
+1. [<5 kyu> The Hashtag Generator](https://www.codewars.com/kata/52449b062fb80683ec000024) - Solution: [hashtag_generator.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/hashtag_generator.cpp)
 1. [<6 kyu> Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c) - Solution: [same_arrays.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/same_arrays.cpp)
 1. [<6 kyu> Calculate the area of a regular n sides polygon inside a circle of radius r](https://www.codewars.com/kata/5a58ca28e626c55ae000018a) - Solution: [polygon_area_inside_circle.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/polygon_area_inside_circle.cpp)
 1. [<6 kyu> Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001) - Solution: [split_strings.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/split_strings.cpp)
