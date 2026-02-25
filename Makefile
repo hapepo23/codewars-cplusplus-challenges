@@ -10,6 +10,7 @@ TARGETS = \
 	correct_time_string \
 	descending_order \
 	disemvowel \
+	find_missing_letter \
 	hashtag_generator \
 	how_good_really \
 	isograms \
