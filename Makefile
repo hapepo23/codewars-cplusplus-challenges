@@ -8,6 +8,7 @@ TARGETS = \
 	boolean_to_string \
 	class_creation_skills \
 	correct_time_string \
+	count_smileys \
 	descending_order \
 	disemvowel \
 	find_missing_letter \
