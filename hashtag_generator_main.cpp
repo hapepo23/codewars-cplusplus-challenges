@@ -15,11 +15,11 @@ opt_str_t generate_hashtag(const str_t& str);
 
 static void do_test(const str_t& str, const opt_str_t& expected) {
   opt_str_t actual = generate_hashtag(str);
-  const str_t expected_str = expected.value_or("**nullopt**");
-  const str_t actual_str = actual.value_or("**nullopt**");
   std::cout << "String  : \"" << str << "\"" << std::endl
-            << "Expected: \"" << expected_str << "\"" << std::endl
-            << "Actual:   \"" << actual_str << "\"" << std::endl
+            << "Expected: \"" << expected.value_or("**nullopt**") << "\""
+            << std::endl
+            << "Actual:   \"" << actual.value_or("**nullopt**") << "\""
+            << std::endl
             << "-> " << (expected == actual ? "OK" : "FAIL") << std::endl
             << std::endl;
 }
