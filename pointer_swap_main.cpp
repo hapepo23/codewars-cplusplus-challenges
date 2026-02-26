@@ -16,5 +16,7 @@ int main() {
   swap(left, right);
   printf("%s, %s\n", left == oldRight ? "OK" : "FAIL",
          right == oldLeft ? "OK" : "FAIL");
+  delete[] static_cast<int*>(left);
+  delete[] static_cast<int*>(right);
   return 0;
 }
