@@ -22,6 +22,7 @@ TARGETS = \
 	number_proper_fractions \
 	number_to_string \
 	personalized_message \
+	pointer_swap \
 	polygon_area_inside_circle \
 	population_growth \
 	positive_sum \

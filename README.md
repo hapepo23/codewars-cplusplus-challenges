@@ -44,6 +44,7 @@ My published Codewars solutions (in C) have been copied and misused in other Git
 1. [<7 kyu> Growth of a Population](https://www.codewars.com/kata/563b662a59afc2b5120000c6) - Solution: [population_growth.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/population_growth.cpp)
 1. [<7 kyu> Isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1) - Solution: [isograms.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/isograms.cpp)
 1. [<7 kyu> Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039) - Solution: [mumbling.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/mumbling.cpp)
+1. [<7 kyu> Pointer Swap](https://www.codewars.com/kata/57f285c069e09ca1aa000b04) - Solution: [pointer_swap.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/pointer_swap.cpp)
 1. [<7 kyu> Remove All The Marked Elements of a List](https://www.codewars.com/kata/563089b9b7be03472d00002b) - Solution: [remove_array_values.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/remove_array_values.cpp)
 1. [<7 kyu> String matchup](https://www.codewars.com/kata/59ca8e8e1a68b7de740001f4) - Solution: [string_matchup.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/string_matchup.cpp)
 1. [<7 kyu> You're a square!](https://www.codewars.com/kata/54c27a33fb7da0db0100040e) - Solution: [is_square.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/is_square.cpp)
