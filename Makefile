@@ -12,6 +12,7 @@ TARGETS = \
 	descending_order \
 	determinant \
 	disemvowel \
+	drone_fly_by \
 	find_missing_letter \
 	hashtag_generator \
 	how_good_really \
