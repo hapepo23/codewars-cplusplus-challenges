@@ -13,6 +13,7 @@ TARGETS = \
 	determinant \
 	disemvowel \
 	drone_fly_by \
+	duplicate_encoder \
 	find_missing_letter \
 	hashtag_generator \
 	how_good_really \
