@@ -10,6 +10,7 @@ TARGETS = \
 	correct_time_string \
 	count_smileys \
 	descending_order \
+	determinant \
 	disemvowel \
 	find_missing_letter \
 	hashtag_generator \

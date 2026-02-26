@@ -10,18 +10,21 @@ https://www.codewars.com/kata/5839edaa6754d6fec10000a2
 char findMissingLetter(const std::vector<char>& chars);
 
 template <typename T>
-void cout_vector(const std::vector<T>& v) {
-  std::cout << "{ ";
-  for (const auto& item : v)
-    std::cout << item << " ";
-  std::cout << "}" << std::endl;
+std::ostream& operator<<(std::ostream& os, const std::vector<T>& v) {
+  os << "{";
+  for (size_t i = 0; i < v.size(); ++i) {
+    os << v[i];
+    if (i + 1 < v.size())
+      os << ", ";
+  }
+  os << "}";
+  return os;
 }
 
 static void do_test(const std::vector<char>& chars, const char expected) {
   char actual = findMissingLetter(chars);
-  std::cout << "Array of letters: ";
-  cout_vector(chars);
-  std::cout << "Expected: \"" << expected << "\", actual: \"" << actual
+  std::cout << "Array of letters: " << chars << std::endl
+            << "Expected: \"" << expected << "\", actual: \"" << actual
             << "\" -> " << (expected == actual ? "OK" : "FAIL") << std::endl
             << std::endl;
 }

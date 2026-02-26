@@ -12,23 +12,23 @@ using VI = std::vector<int>;
 VI remove_values(const VI& integers, const VI& values);
 
 template <typename T>
-void cout_vector(const std::vector<T>& v) {
-  std::cout << "{ ";
-  for (const auto& item : v)
-    std::cout << item << " ";
-  std::cout << "}" << std::endl;
+std::ostream& operator<<(std::ostream& os, const std::vector<T>& v) {
+  os << "{";
+  for (size_t i = 0; i < v.size(); ++i) {
+    os << v[i];
+    if (i + 1 < v.size())
+      os << ", ";
+  }
+  os << "}";
+  return os;
 }
 
 static void do_test(const VI& integers, const VI& values, const VI& expected) {
   VI actual = remove_values(integers, values);
-  std::cout << "Array integers: ";
-  cout_vector(integers);
-  std::cout << "Array values  : ";
-  cout_vector(values);
-  std::cout << "Array expected: ";
-  cout_vector(expected);
-  std::cout << "Array actual  : ";
-  cout_vector(actual);
+  std::cout << "Array integers: " << integers << std::endl;
+  std::cout << "Array values  : " << values << std::endl;
+  std::cout << "Array expected: " << expected << std::endl;
+  std::cout << "Array actual  : " << actual << std::endl;
   std::cout << "-> " << (expected == actual ? "OK" : "FAIL") << std::endl
             << std::endl;
 }

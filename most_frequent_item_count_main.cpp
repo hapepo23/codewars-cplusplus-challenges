@@ -10,17 +10,20 @@ https://www.codewars.com/kata/56582133c932d8239900002e
 unsigned int most_frequent_item_count(const std::vector<int>& collection);
 
 template <typename T>
-void cout_vector(const std::vector<T>& v) {
-  std::cout << "{ ";
-  for (const auto& item : v)
-    std::cout << item << " ";
-  std::cout << "}" << std::endl;
+std::ostream& operator<<(std::ostream& os, const std::vector<T>& v) {
+  os << "{";
+  for (size_t i = 0; i < v.size(); ++i) {
+    os << v[i];
+    if (i + 1 < v.size())
+      os << ", ";
+  }
+  os << "}";
+  return os;
 }
 
 static void do_test(const std::vector<int>& collection, unsigned int expected) {
   unsigned int actual = most_frequent_item_count(collection);
-  std::cout << "Collection : ";
-  cout_vector(collection);
+  std::cout << "Collection : " << collection << std::endl;
   std::cout << "Expected: " << expected << ", actual  : " << actual << " -> "
             << (expected == actual ? "OK" : "FAIL") << std::endl
             << std::endl;

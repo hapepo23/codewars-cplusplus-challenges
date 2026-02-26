@@ -12,11 +12,15 @@ using vec = std::vector<int>;
 bool betterThanAverage(vec classPoints, int yourPoints);
 
 template <typename T>
-void cout_vector(const std::vector<T>& v) {
-  std::cout << "{ ";
-  for (const auto& item : v)
-    std::cout << item << " ";
-  std::cout << "}" << std::endl;
+std::ostream& operator<<(std::ostream& os, const std::vector<T>& v) {
+  os << "{";
+  for (size_t i = 0; i < v.size(); ++i) {
+    os << v[i];
+    if (i + 1 < v.size())
+      os << ", ";
+  }
+  os << "}";
+  return os;
 }
 
 static std::string bool_to_word(const bool value) {
@@ -27,8 +31,7 @@ static void do_test(const vec& classPoints,
                     const int yourPoints,
                     const bool expected) {
   bool actual = betterThanAverage(classPoints, yourPoints);
-  std::cout << "Class points: ";
-  cout_vector(classPoints);
+  std::cout << "Class points: " << classPoints << std::endl;
   std::cout << "Your points: " << yourPoints << std::endl;
   std::cout << "Better expected: " << bool_to_word(expected) << std::endl;
   std::cout << "Better actual: " << bool_to_word(actual) << std::endl;

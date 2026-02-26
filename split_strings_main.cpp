@@ -11,11 +11,15 @@ https://www.codewars.com/kata/515de9ae9dcfc28eb6000001
 std::vector<std::string> solution(const std::string& s);
 
 template <typename T>
-void cout_vector(const std::vector<T>& v) {
-  std::cout << "{ ";
-  for (const auto& item : v)
-    std::cout << item << " ";
-  std::cout << "}" << std::endl;
+std::ostream& operator<<(std::ostream& os, const std::vector<T>& v) {
+  os << "{";
+  for (size_t i = 0; i < v.size(); ++i) {
+    os << v[i];
+    if (i + 1 < v.size())
+      os << ", ";
+  }
+  os << "}";
+  return os;
 }
 
 static void do_test(const std::string& s,
@@ -23,9 +27,9 @@ static void do_test(const std::string& s,
   std::vector<std::string> actual = solution(s);
   std::cout << "String  : \"" << s << "\"" << std::endl
             << "Expected: " << std::endl;
-  cout_vector(expected);
+  std::cout << expected << std::endl;
   std::cout << "Actual: " << std::endl;
-  cout_vector(actual);
+  std::cout << actual << std::endl;
   std::cout << "-> " << (expected == actual ? "OK" : "FAIL") << std::endl
             << std::endl;
 }

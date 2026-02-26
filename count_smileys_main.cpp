@@ -11,18 +11,21 @@ https://www.codewars.com/kata/583203e6eb35d7980400002a
 int countSmileys(const std::vector<std::string>& arr);
 
 template <typename T>
-static void cout_vector(const std::vector<T>& v) {
-  std::cout << "[ ";
-  for (const auto& item : v)
-    std::cout << item << " ";
-  std::cout << "]" << std::endl;
+std::ostream& operator<<(std::ostream& os, const std::vector<T>& v) {
+  os << "{";
+  for (size_t i = 0; i < v.size(); ++i) {
+    os << v[i];
+    if (i + 1 < v.size())
+      os << ", ";
+  }
+  os << "}";
+  return os;
 }
 
 static void do_test(const std::vector<std::string>& arr, const int expected) {
   int actual = countSmileys(arr);
-  std::cout << "Array of Emojis: ";
-  cout_vector(arr);
-  std::cout << "Expected: " << expected << ", actual: " << actual << " -> "
+  std::cout << "Array of Emojis: " << arr << std::endl
+            << "Expected: " << expected << ", actual: " << actual << " -> "
             << (expected == actual ? "OK" : "FAIL") << std::endl
             << std::endl;
 }

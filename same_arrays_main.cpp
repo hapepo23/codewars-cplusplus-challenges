@@ -15,18 +15,20 @@ class Same {
 };
 
 template <typename T>
-void cout_vector(const std::vector<T>& v) {
-  std::cout << "{ ";
-  for (const auto& item : v)
-    std::cout << item << " ";
-  std::cout << "}" << std::endl;
+std::ostream& operator<<(std::ostream& os, const std::vector<T>& v) {
+  os << "{";
+  for (size_t i = 0; i < v.size(); ++i) {
+    os << v[i];
+    if (i + 1 < v.size())
+      os << ", ";
+  }
+  os << "}";
+  return os;
 }
 
 static void do_test(VI a, VI b, bool expected) {
-  std::cout << "Array a : ";
-  cout_vector(a);
-  std::cout << "Array b : ";
-  cout_vector(b);
+  std::cout << "Array a : " << a << std::endl;
+  std::cout << "Array b : " << b << std::endl;
   bool actual = Same::comp(a, b);
   std::cout << "Expected: " << (expected ? "true" : "false")
             << ", actual: " << (actual ? "true" : "false") << " -> "
