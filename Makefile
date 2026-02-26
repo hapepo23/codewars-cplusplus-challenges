@@ -29,6 +29,7 @@ TARGETS = \
 	remove_array_values \
 	same_arrays \
 	smallest_value \
+	sort_array_by_string_length \
 	split_strings \
 	string_matchup \
 	string_remove_first_last_char \

@@ -20,8 +20,6 @@ My solutions to some [**Codewars challenges**](https://www.codewars.com/users/br
 
 The code I released here into the public domain may appear in third-party projects. I do not maintain, endorse, or have any affiliation with such projects. Any malicious or deceptive use is unauthorized and should be reported to the hosting platform. 
 
-My published Codewars solutions (in C) have been copied and misused in other GitHub repositories as a kind of honeypot to trick users into downloading malicious software. So please be careful! I have reported this to GitHub, but unfortunately, GitHub remains inactive and has not removed this type of abuse until now.
-
 -----
 
 ### List of all challenges I solved in C++
@@ -46,6 +44,7 @@ My published Codewars solutions (in C) have been copied and misused in other Git
 1. [<7 kyu> Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039) - Solution: [mumbling.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/mumbling.cpp)
 1. [<7 kyu> Pointer Swap](https://www.codewars.com/kata/57f285c069e09ca1aa000b04) - Solution: [pointer_swap.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/pointer_swap.cpp)
 1. [<7 kyu> Remove All The Marked Elements of a List](https://www.codewars.com/kata/563089b9b7be03472d00002b) - Solution: [remove_array_values.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/remove_array_values.cpp)
+1. [<7 kyu> Sort array by string length](https://www.codewars.com/kata/57ea5b0b75ae11d1e800006c) - Solution: [sort_array_by_string_length.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/sort_array_by_string_length.cpp)
 1. [<7 kyu> String matchup](https://www.codewars.com/kata/59ca8e8e1a68b7de740001f4) - Solution: [string_matchup.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/string_matchup.cpp)
 1. [<7 kyu> You're a square!](https://www.codewars.com/kata/54c27a33fb7da0db0100040e) - Solution: [is_square.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/is_square.cpp)
 1. [<8 kyu> Bin to Decimal](https://www.codewars.com/kata/57a5c31ce298a7e6b7000334) - Solution: [bin_to_decimal.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/bin_to_decimal.cpp)
