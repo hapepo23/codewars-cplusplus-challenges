@@ -4,6 +4,8 @@ Build a quadratic equation
 https://www.codewars.com/kata/60a9148187cfaf002562ceb8
 */
 
+/* My submitted version */
+
 #include <cctype>
 #include <cstdio>
 #include <cstdlib>
@@ -94,7 +96,7 @@ std::string quadratic_builder(const std::string& expression) {
   return result;
 }
 
-/*  A much better version in pure C++ ...
+/*  A much better version in pure C++ (Version 1 with regex)
 
 #include <cstdlib>
 #include <regex>
@@ -144,6 +146,73 @@ std::string quadratic_builder(const std::string& expr) {
   result += term(2, A, v, true);
   result += term(1, B, v, result.empty());
   result += term(0, C, v, result.empty());
+  return result;
+}
+
+----------------------------------
+
+A much better version in pure C++ (Version 2 without regex)
+
+#include <cctype>
+#include <cstdlib>
+#include <string>
+#include <string_view>
+
+static int parse_coeff(std::string_view s) {
+  if (s.empty())
+    return 1;
+  if (s == "+")
+    return 1;
+  if (s == "-")
+    return -1;
+  return std::stoi(std::string{s});
+}
+
+static std::string term(int power, int coeff, char var, bool first) {
+  if (coeff == 0)
+    return "";
+  std::string out;
+  if (coeff > 0 && !first)
+    out += '+';
+  if (coeff < 0)
+    out += '-';
+  int abs = std::abs(coeff);
+  if (abs != 1 || power == 0)
+    out += std::to_string(abs);
+  if (power >= 1)
+    out += var;
+  if (power == 2)
+    out += "^2";
+  return out;
+}
+
+std::string quadratic_builder(const std::string& expr) {
+  auto mid = expr.find(")(");
+  if (mid == std::string::npos)
+    return "Invalid input";
+  std::string_view left = std::string_view(expr).substr(1, mid - 1);
+  std::string_view right =
+      std::string_view(expr).substr(mid + 2, expr.size() - mid - 3);
+  auto parse_part = [](std::string_view s) {
+    size_t i = 0;
+    while (i < s.size() && (std::isdigit(s[i]) || s[i] == '+' || s[i] == '-'))
+      ++i;
+    int a = parse_coeff(s.substr(0, i));
+    char var = s[i];
+    int b = std::stoi(std::string{s.substr(i + 1)});
+    return std::tuple{a, var, b};
+  };
+  auto [a, var1, b] = parse_part(left);
+  auto [c, var2, d] = parse_part(right);
+  if (var1 != var2)
+    return "Mismatched variables";
+  int A = a * c;
+  int B = a * d + b * c;
+  int C = b * d;
+  std::string result;
+  result += term(2, A, var1, true);
+  result += term(1, B, var1, result.empty());
+  result += term(0, C, var1, result.empty());
   return result;
 }
 
