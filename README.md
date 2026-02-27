@@ -42,6 +42,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<7 kyu> Disemvowel Trolls](https://www.codewars.com/kata/52fba66badcd10859f00097e) - Solution: [disemvowel.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/disemvowel.cpp)
 1. [<7 kyu> Drone Fly-By](https://www.codewars.com/kata/58356a94f8358058f30004b5) - Solution: [drone_fly_by.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/drone_fly_by.cpp)
 1. [<7 kyu> Find Count of Most Frequent Item in an Array](https://www.codewars.com/kata/56582133c932d8239900002e) - Solution: [most_frequent_item_count.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/most_frequent_item_count.cpp)
+1. [<7 kyu> FromPascalToCpp](https://www.codewars.com/kata/5ac3c7ca034a0b3227001ad5) - Solution: [from_pascal_to_cpp.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/from_pascal_to_cpp.cpp)
 1. [<7 kyu> Growth of a Population](https://www.codewars.com/kata/563b662a59afc2b5120000c6) - Solution: [population_growth.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/population_growth.cpp)
 1. [<7 kyu> Isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1) - Solution: [isograms.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/isograms.cpp)
 1. [<7 kyu> Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039) - Solution: [mumbling.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/mumbling.cpp)

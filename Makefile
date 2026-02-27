@@ -17,6 +17,7 @@ TARGETS = \
 	drone_fly_by \
 	duplicate_encoder \
 	find_missing_letter \
+	from_pascal_to_cpp \
 	hashtag_generator \
 	how_good_really \
 	isograms \
