@@ -8,6 +8,7 @@ TARGETS = \
 	boolean_to_string \
 	class_creation_skills \
 	correct_time_string \
+	count_by_x \
 	count_smileys \
 	descending_order \
 	determinant \
