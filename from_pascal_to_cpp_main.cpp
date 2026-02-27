@@ -6,13 +6,6 @@ https://www.codewars.com/kata/5ac3c7ca034a0b3227001ad5
 
 #include <cstdio>
 
-#define begin {
-#define end }
-#define repeat do {
-#define until(a) \
-  }              \
-  while (!(a))
-
 int fromPascalToCpp(int Sum, int finish, int start);
 
 int main() {
