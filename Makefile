@@ -23,6 +23,7 @@ TARGETS = \
 	isograms \
 	is_square \
 	most_frequent_item_count \
+	multiple_of_eleven \
 	mumbling \
 	number_proper_fractions \
 	number_to_string \
