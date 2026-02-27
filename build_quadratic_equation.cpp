@@ -93,3 +93,58 @@ std::string quadratic_builder(const std::string& expression) {
     result += build_result(i, koeff[i], varchar, result.size() == 0);
   return result;
 }
+
+/*  A much better version in pure C++ ...
+
+#include <cstdlib>
+#include <regex>
+#include <sstream>
+#include <string>
+
+static std::string term(int power, int coeff, char var, bool first) {
+  if (coeff == 0)
+    return "";
+  std::ostringstream out;
+  if (coeff > 0 && !first)
+    out << "+";
+  if (coeff < 0)
+    out << "-";
+  int abs = std::abs(coeff);
+  if (abs != 1 || power == 0)
+    out << abs;
+  if (power >= 1)
+    out << var;
+  if (power == 2)
+    out << "^2";
+  return out.str();
+}
+
+std::string quadratic_builder(const std::string& expr) {
+  std::regex re(
+      R"(\(([-+]?\d*)([a-zA-Z])([-+]\d+)\)\(([-+]?\d*)\2([-+]\d+)\))");
+  std::smatch m;
+  if (!std::regex_match(expr, m, re))
+    return "Invalid expression";
+  auto parse = [](const std::string& s) {
+    if (s.empty() || s == "+")
+      return 1;
+    if (s == "-")
+      return -1;
+    return std::stoi(s);
+  };
+  int a = parse(m[1]);
+  char v = m[2].str()[0];
+  int b = std::stoi(m[3]);
+  int c = parse(m[4]);
+  int d = std::stoi(m[5]);
+  int A = a * c;
+  int B = a * d + b * c;
+  int C = b * d;
+  std::string result;
+  result += term(2, A, v, true);
+  result += term(1, B, v, result.empty());
+  result += term(0, C, v, result.empty());
+  return result;
+}
+
+*/
