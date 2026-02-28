@@ -34,6 +34,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<6 kyu> Count the smiley faces!](https://www.codewars.com/kata/583203e6eb35d7980400002a) - Solution: [count_smileys.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/count_smileys.cpp)
 1. [<6 kyu> Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c) - Solution: [duplicate_encoder.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/duplicate_encoder.cpp)
 1. [<6 kyu> Find the missing letter](https://www.codewars.com/kata/5839edaa6754d6fec10000a2) - Solution: [find_missing_letter.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/find_missing_letter.cpp)
+1. [<6 kyu> Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836) - Solution: [find_the_odd_int.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/find_the_odd_int.cpp)
 1. [<6 kyu> Multiple of 11](https://www.codewars.com/kata/581f12491bbdd0ca45000070) - Solution: [multiple_of_eleven.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/multiple_of_eleven.cpp)
 1. [<6 kyu> Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001) - Solution: [split_strings.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/split_strings.cpp)
 1. [<6 kyu> Sums of Parts](https://www.codewars.com/kata/5ce399e0047a45001c853c2b) - Solution: [sum_of_parts.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/sum_of_parts.cpp)
