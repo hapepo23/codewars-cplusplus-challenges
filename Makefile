@@ -44,6 +44,7 @@ TARGETS = \
 	string_reverse \
 	sum_arrays \
 	sum_of_parts \
+	the_lift \
 	third_angle_triangle
 
 .PHONY: all clean reformat run vrun
