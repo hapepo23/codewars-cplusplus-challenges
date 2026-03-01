@@ -4,6 +4,8 @@ The Lift
 https://www.codewars.com/kata/58905bfa1decb981da00009e
 */
 
+/* --- My submitted version --- */
+
 #include <vector>
 
 using VI = std::vector<int>;
@@ -143,3 +145,120 @@ VI the_lift(const VVI& queues, const int capacity) {
   }
   return visits;
 }
+
+/* --- Improved version ---
+
+#include <algorithm>
+#include <optional>
+#include <vector>
+
+using VI = std::vector<int>;
+using VVI = std::vector<std::vector<int>>;
+using VS = std::vector<size_t>;
+using VVS = std::vector<std::vector<size_t>>;
+
+static void calculate_leaving(size_t floor, VS& lift) {
+  lift.erase(std::remove(lift.begin(), lift.end(), floor), lift.end());
+}
+
+static void calculate_entering(int capacity,
+                               size_t floor,
+                               bool up,
+                               VVI& q,
+                               VS& lift) {
+  auto& queue = q[floor];
+  for (auto it = queue.begin();
+       it != queue.end() && lift.size() < (size_t)capacity;) {
+    size_t dest = *it;
+    if ((up && dest > floor) || (!up && dest < floor)) {
+      lift.push_back(dest);
+      it = queue.erase(it);
+    } else {
+      ++it;
+    }
+  }
+}
+
+static void calculate_calls(const VVI& q, VVS& calls) {
+  calls.assign(q.size(), {0, 0});
+  for (size_t f = 0; f < q.size(); ++f) {
+    for (int dest : q[f]) {
+      if (dest > (int)f)
+        ++calls[f][0];
+      else
+        ++calls[f][1];
+    }
+  }
+}
+
+static std::optional<size_t> next_floor(size_t floors,
+                                        size_t cur,
+                                        const VS& lift,
+                                        const VVS& calls,
+                                        bool up) {
+  if (up) {
+    size_t best = floors;
+    for (size_t d : lift)
+      if (d > cur && d < best)
+        best = d;
+    for (size_t f = cur + 1; f < floors; ++f)
+      if (calls[f][0] > 0 && f < best)
+        best = f;
+    if (best != floors)
+      return best;
+    best = cur;
+    for (size_t f = cur + 1; f < floors; ++f)
+      if (calls[f][1] > 0 && f > best)
+        best = f;
+    if (best != cur)
+      return best;
+  } else {
+    int best = -1;
+    for (size_t d : lift)
+      if (d < cur && (int)d > best)
+        best = (int)d;
+    for (int f = (int)cur - 1; f > best; --f)
+      if (calls[f][1] > 0 && f > best)
+        best = f;
+    if (best != -1)
+      return best;
+    best = (int)cur;
+    for (int f = (int)cur - 1; f >= 0; --f)
+      if (calls[f][0] > 0 && f < best)
+        best = f;
+    if (best != (int)cur)
+      return best;
+  }
+  return std::nullopt;
+}
+
+VI the_lift(const VVI& queues, int capacity) {
+  VVI q = queues;
+  size_t floors = q.size();
+  VS lift;
+  VVS calls;
+  VI visits = {0};
+  size_t cur = 0;
+  bool up = true;
+  while (true) {
+    calculate_leaving(cur, lift);
+    calculate_entering(capacity, cur, up, q, lift);
+    calculate_calls(q, calls);
+    auto next = next_floor(floors, cur, lift, calls, up);
+    if (!next) {
+      up = !up;
+      calculate_entering(capacity, cur, up, q, lift);
+      next = next_floor(floors, cur, lift, calls, up);
+      if (!next) {
+        if (cur != 0)
+          visits.push_back(0);
+        break;
+      }
+    }
+    cur = *next;
+    visits.push_back((int)cur);
+  }
+  return visits;
+}
+
+*/
