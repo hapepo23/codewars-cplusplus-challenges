@@ -19,6 +19,7 @@ TARGETS = \
 	drone_fly_by \
 	duplicate_encoder \
 	find_missing_letter \
+	find_most_frequent \
 	find_the_odd_int \
 	from_pascal_to_cpp \
 	fun_with_operators \
