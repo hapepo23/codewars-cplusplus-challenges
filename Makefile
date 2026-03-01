@@ -9,6 +9,7 @@ TARGETS = \
 	build_quadratic_equation \
 	century_from_year \
 	class_creation_skills \
+	convert_time_to_string \
 	correct_time_string \
 	count_by_x \
 	count_smileys \
