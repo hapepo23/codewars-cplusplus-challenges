@@ -33,6 +33,7 @@ TARGETS = \
 	polygon_area_inside_circle \
 	population_growth \
 	positive_sum \
+	rectangle_into_squares \
 	remove_array_values \
 	same_arrays \
 	smallest_value \
