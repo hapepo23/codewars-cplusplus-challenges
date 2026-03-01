@@ -7,6 +7,7 @@ TARGETS = \
 	bin_to_decimal \
 	boolean_to_string \
 	build_quadratic_equation \
+	century_from_year \
 	class_creation_skills \
 	correct_time_string \
 	count_by_x \
