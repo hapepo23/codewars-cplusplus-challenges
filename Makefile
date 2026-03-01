@@ -20,6 +20,7 @@ TARGETS = \
 	find_missing_letter \
 	find_the_odd_int \
 	from_pascal_to_cpp \
+	fun_with_operators \
 	hashtag_generator \
 	how_good_really \
 	isograms \
