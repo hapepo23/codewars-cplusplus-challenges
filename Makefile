@@ -42,6 +42,7 @@ TARGETS = \
 	population_growth \
 	positive_sum \
 	printer_errors \
+	pyramid_structure_analyzer \
 	rectangle_into_squares \
 	remove_array_values \
 	same_arrays \
