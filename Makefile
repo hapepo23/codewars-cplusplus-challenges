@@ -30,6 +30,7 @@ TARGETS = \
 	how_good_really \
 	isograms \
 	is_square \
+	leet_greek_case \
 	most_frequent_item_count \
 	multiple_of_eleven \
 	mumbling \
