@@ -40,6 +40,7 @@ TARGETS = \
 	polygon_area_inside_circle \
 	population_growth \
 	positive_sum \
+	printer_errors \
 	rectangle_into_squares \
 	remove_array_values \
 	same_arrays \

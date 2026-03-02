@@ -56,6 +56,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<7 kyu> Isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1) - Solution: [isograms.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/isograms.cpp)
 1. [<7 kyu> Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039) - Solution: [mumbling.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/mumbling.cpp)
 1. [<7 kyu> Pointer Swap](https://www.codewars.com/kata/57f285c069e09ca1aa000b04) - Solution: [pointer_swap.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/pointer_swap.cpp)
+1. [<7 kyu> Printer Errors](https://www.codewars.com/kata/56541980fa08ab47a0000040) - Solution: [printer_errors.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/printer_errors.cpp)
 1. [<7 kyu> Remove All The Marked Elements of a List](https://www.codewars.com/kata/563089b9b7be03472d00002b) - Solution: [remove_array_values.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/remove_array_values.cpp)
 1. [<7 kyu> Sort array by string length](https://www.codewars.com/kata/57ea5b0b75ae11d1e800006c) - Solution: [sort_array_by_string_length.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/sort_array_by_string_length.cpp)
 1. [<7 kyu> String matchup](https://www.codewars.com/kata/59ca8e8e1a68b7de740001f4) - Solution: [string_matchup.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/string_matchup.cpp)
