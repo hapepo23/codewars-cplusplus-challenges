@@ -24,6 +24,7 @@ TARGETS = \
 	find_most_frequent \
 	find_the_odd_int \
 	fixme_hello \
+	friend_or_foe \
 	from_pascal_to_cpp \
 	fun_with_operators \
 	hashtag_generator \
