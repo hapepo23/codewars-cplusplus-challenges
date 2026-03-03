@@ -47,6 +47,7 @@ TARGETS = \
 	rectangle_into_squares \
 	remove_array_values \
 	same_arrays \
+	shortest_word \
 	smallest_value \
 	sort_array_by_string_length \
 	split_strings \
