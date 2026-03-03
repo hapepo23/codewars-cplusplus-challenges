@@ -56,7 +56,8 @@ TARGETS = \
 	sum_arrays \
 	sum_of_parts \
 	the_lift \
-	third_angle_triangle
+	third_angle_triangle \
+	unique_in_order
 
 .PHONY: all clean reformat run vrun
 
