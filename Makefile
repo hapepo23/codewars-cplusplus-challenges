@@ -3,6 +3,7 @@ CXXFLAGS = -std=c++17 -g -O0 -Wall -Wextra
 LDLIBS = -lm
 
 TARGETS = \
+	bankers_plan \
 	beeramid \
 	bin_to_decimal \
 	boolean_to_string \
