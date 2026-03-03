@@ -57,6 +57,7 @@ TARGETS = \
 	string_reverse \
 	sum_arrays \
 	sum_of_parts \
+	sum_the_tree \
 	the_lift \
 	third_angle_triangle \
 	unique_in_order
