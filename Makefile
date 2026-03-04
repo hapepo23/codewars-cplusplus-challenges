@@ -39,6 +39,7 @@ TARGETS = \
 	mumbling \
 	number_proper_fractions \
 	number_to_string \
+	people_in_the_bus \
 	personalized_message \
 	pointer_swap \
 	polygon_area_inside_circle \

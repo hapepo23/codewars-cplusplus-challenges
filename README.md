@@ -61,6 +61,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<7 kyu> Growth of a Population](https://www.codewars.com/kata/563b662a59afc2b5120000c6) - Solution: [population_growth.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/population_growth.cpp)
 1. [<7 kyu> Isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1) - Solution: [isograms.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/isograms.cpp)
 1. [<7 kyu> Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039) - Solution: [mumbling.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/mumbling.cpp)
+1. [<7 kyu> Number of People in the Bus](https://www.codewars.com/kata/5648b12ce68d9daa6b000099) - Solution: [people_in_the_bus.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/people_in_the_bus.cpp)
 1. [<7 kyu> Pointer Swap](https://www.codewars.com/kata/57f285c069e09ca1aa000b04) - Solution: [pointer_swap.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/pointer_swap.cpp)
 1. [<7 kyu> Printer Errors](https://www.codewars.com/kata/56541980fa08ab47a0000040) - Solution: [printer_errors.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/printer_errors.cpp)
 1. [<7 kyu> Pyramid Structure Analyzer](https://www.codewars.com/kata/66bb6583ac1620f505a8e31b) - Solution: [pyramid_structure_analyzer.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/pyramid_structure_analyzer.cpp)
