@@ -57,6 +57,7 @@ TARGETS = \
 	string_remove_first_last_char \
 	string_repeat \
 	string_reverse \
+	string_scramble \
 	sum_arrays \
 	sum_of_parts \
 	sum_the_tree \

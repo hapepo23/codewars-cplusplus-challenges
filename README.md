@@ -68,6 +68,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<7 kyu> Shortest Word](https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9) - Solution: [shortest_word.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/shortest_word.cpp)
 1. [<7 kyu> Sort array by string length](https://www.codewars.com/kata/57ea5b0b75ae11d1e800006c) - Solution: [sort_array_by_string_length.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/sort_array_by_string_length.cpp)
 1. [<7 kyu> String matchup](https://www.codewars.com/kata/59ca8e8e1a68b7de740001f4) - Solution: [string_matchup.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/string_matchup.cpp)
+1. [<7 kyu> String Scramble](https://www.codewars.com/kata/5822d89270ca28c85c0000f3) - Solution: [string_scramble.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/string_scramble.cpp)
 1. [<7 kyu> You're a square!](https://www.codewars.com/kata/54c27a33fb7da0db0100040e) - Solution: [is_square.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/is_square.cpp)
 1. [<8 kyu> Bin to Decimal](https://www.codewars.com/kata/57a5c31ce298a7e6b7000334) - Solution: [bin_to_decimal.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/bin_to_decimal.cpp)
 1. [<8 kyu> Century From Year](https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097) - Solution: [century_from_year.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/century_from_year.cpp)
