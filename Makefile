@@ -33,6 +33,7 @@ TARGETS = \
 	isograms \
 	is_square \
 	leet_greek_case \
+	make_the_deadfish_swim \
 	most_frequent_item_count \
 	multiple_of_eleven \
 	mumbling \
