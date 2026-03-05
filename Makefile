@@ -51,6 +51,7 @@ TARGETS = \
 	pyramid_structure_analyzer \
 	rectangle_into_squares \
 	remove_array_values \
+	rot13 \
 	same_arrays \
 	shortest_word \
 	smallest_value \
