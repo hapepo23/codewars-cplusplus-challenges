@@ -60,6 +60,7 @@ TARGETS = \
 	string_reverse \
 	string_scramble \
 	sum_arrays \
+	sum_of_odd_numbers \
 	sum_of_parts \
 	sum_the_tree \
 	the_lift \
