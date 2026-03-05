@@ -14,6 +14,8 @@
 
 My solutions to some [**Codewars challenges**](https://www.codewars.com/users/briskwalker), programmed in **C++**, might not be the most sophisticated, but at least mostly easy to read and understand. However, a few are implemented rather poorly, as I am still a beginner.
 
+Current C++ rank (since March 5, 2026): 4 kyu.
+
 -----
 
 ### !! Security Notice !! 
