@@ -45,6 +45,7 @@ TARGETS = \
 	polygon_area_inside_circle \
 	population_growth \
 	positive_sum \
+	prime_word \
 	printer_errors \
 	pyramid_structure_analyzer \
 	rectangle_into_squares \
