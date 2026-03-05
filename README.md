@@ -30,6 +30,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<5 kyu> Beeramid](https://www.codewars.com/kata/51e04f6b544cf3f6550000c1) - Solution: [beeramid.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/beeramid.cpp)
 1. [<5 kyu> Build a quadratic equation](https://www.codewars.com/kata/60a9148187cfaf002562ceb8) - Solution: [build_quadratic_equation.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/build_quadratic_equation.cpp)
 1. [<5 kyu> Calculating with Functions](https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39) - Solution: [calculating_with_functions.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/calculating_with_functions.cpp)
+1. [<5 kyu> Lazy Repeater](https://www.codewars.com/kata/51fc3beb41ecc97ee20000c3) - Solution: [lazy_repeater.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/lazy_repeater.cpp)
 1. [<5 kyu> Rot13](https://www.codewars.com/kata/530e15517bc88ac656000716) - Solution: [rot13.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/rot13.cpp)
 1. [<5 kyu> The Hashtag Generator](https://www.codewars.com/kata/52449b062fb80683ec000024) - Solution: [hashtag_generator.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/hashtag_generator.cpp)
 1. [<6 kyu> Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c) - Solution: [same_arrays.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/same_arrays.cpp)
