@@ -69,7 +69,8 @@ TARGETS = \
 	sum_the_tree \
 	the_lift \
 	third_angle_triangle \
-	unique_in_order
+	unique_in_order \
+	vigenere_cipher_helper
 
 .PHONY: all clean reformat run vrun
 
