@@ -10,7 +10,6 @@ class VigenèreCipher {
  public:
   std::string key;
   std::string alphabet;
-
   std::string encode(const std::string& str);
   std::string decode(const std::string& str);
 };
