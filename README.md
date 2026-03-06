@@ -27,6 +27,7 @@ The code I released here into the public domain may appear in third-party projec
 ### List of all challenges I solved in C++
 
 1. [<3 kyu> The Lift](https://www.codewars.com/kata/58905bfa1decb981da00009e) - Solution: [the_lift.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/the_lift.cpp)
+1. [<4 kyu> Grazing Donkey](https://www.codewars.com/kata/5b5ce2176d0db7331f0000c0) - Solution: [grazing_donkey.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/grazing_donkey.cpp)
 1. [<4 kyu> Matrix Determinant](https://www.codewars.com/kata/52a382ee44408cea2500074c) - Solution: [determinant.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/determinant.cpp)
 1. [<4 kyu> Number of Proper Fractions with Denominator d](https://www.codewars.com/kata/55b7bb74a0256d4467000070) - Solution: [number_proper_fractions.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/number_proper_fractions.cpp)
 1. [<4 kyu> Vigenère Cipher Helper](https://www.codewars.com/kata/52d1bd3694d26f8d6e0000d3) - Solution: [vigenere_cipher_helper.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/vigenere_cipher_helper.cpp)

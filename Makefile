@@ -29,6 +29,7 @@ TARGETS = \
 	friend_or_foe \
 	from_pascal_to_cpp \
 	fun_with_operators \
+	grazing_donkey \
 	hashtag_generator \
 	how_good_really \
 	isograms \
