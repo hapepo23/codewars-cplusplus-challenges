@@ -88,8 +88,8 @@ std::string quadratic_builder(const std::string& expression) {
   koeff[0] = nums[0][1] * nums[1][1];
   if (DEBUG)
     printf("DEBUG equation: %d%c^2%s%d%c%s%d\n", koeff[2], varchar,
-           koeff[1] < 0 ? "-" : "+", abs(koeff[1]), varchar,
-           koeff[0] < 0 ? "-" : "+", abs(koeff[0]));
+           koeff[1] < 0 ? "-" : "+", std::abs(koeff[1]), varchar,
+           koeff[0] < 0 ? "-" : "+", std::abs(koeff[0]));
   std::string result{""};
   for (int i = 2; i >= 0; --i)
     result += build_result(i, koeff[i], varchar, result.size() == 0);
