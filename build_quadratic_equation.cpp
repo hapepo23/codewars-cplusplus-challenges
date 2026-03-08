@@ -20,7 +20,7 @@ std::string build_result(const int i,
                          bool prevempty) {
   std::string result{""};
   bool plus = (i < 2);
-  int abskoeff = abs(koeff);
+  int abskoeff = std::abs(koeff);
   char vc[2] = {varchar, '\0'};
   if (koeff != 0) {
     if (abskoeff != 1) {

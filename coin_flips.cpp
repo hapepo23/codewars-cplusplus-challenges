@@ -14,7 +14,7 @@ https://www.codewars.com/kata/629509fc033da70016b88741
 std::vector<std::string> coin_flips(int flips) {
   std::vector<std::string> result;
   if (flips >= 1 && flips <= MAXL) {
-    int size = (int)pow(2., (double)flips);
+    int size = (int)std::pow(2., (double)flips);
     result.reserve(size);
     for (int i = 0; i < size; ++i) {
       std::bitset<MAXL> bs = i;

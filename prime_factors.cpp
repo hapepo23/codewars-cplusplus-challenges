@@ -11,12 +11,12 @@ std::vector<int> prime_factors(long n) {
   std::vector<int> result;
   long num = n;
   int div = 2;
-  int divmax = (int)sqrt(num);
+  int divmax = (int)std::sqrt(num);
   while (div <= divmax) {
     if (num % div == 0) {
       result.push_back(div);
       num /= div;
-      divmax = (int)sqrt(num);
+      divmax = (int)std::sqrt(num);
     } else
       div++;
   }
