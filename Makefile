@@ -32,6 +32,7 @@ TARGETS = \
 	fun_with_operators \
 	grazing_donkey \
 	hashtag_generator \
+	highest_scoring_word \
 	how_good_really \
 	isograms \
 	is_square \
