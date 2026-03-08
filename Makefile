@@ -7,6 +7,7 @@ TARGETS = \
 	beeramid \
 	bin_to_decimal \
 	boolean_to_string \
+	bouncing_balls \
 	build_quadratic_equation \
 	calculating_with_functions \
 	century_from_year \
