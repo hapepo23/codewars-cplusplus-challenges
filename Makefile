@@ -16,6 +16,7 @@ TARGETS = \
 	correct_time_string \
 	count_by_x \
 	count_smileys \
+	delete_occurrences_above_limit \
 	descending_order \
 	determinant \
 	digitize \
