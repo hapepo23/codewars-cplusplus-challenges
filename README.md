@@ -26,6 +26,7 @@ The code I released here into the public domain may appear in third-party projec
 
 ### List of all challenges I solved in C++
 
+1. [<2 kyu> Evaluate mathematical expression](https://www.codewars.com/kata/52a78825cdfc2cfc87000005) - Solution: [eval_math_expression.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/eval_math_expression.cpp)
 1. [<3 kyu> The Lift](https://www.codewars.com/kata/58905bfa1decb981da00009e) - Solution: [the_lift.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/the_lift.cpp)
 1. [<4 kyu> Grazing Donkey](https://www.codewars.com/kata/5b5ce2176d0db7331f0000c0) - Solution: [grazing_donkey.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/grazing_donkey.cpp)
 1. [<4 kyu> Matrix Determinant](https://www.codewars.com/kata/52a382ee44408cea2500074c) - Solution: [determinant.cpp](https://github.com/hapepo23/codewars-cplusplus-challenges/blob/master/determinant.cpp)
