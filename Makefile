@@ -25,6 +25,7 @@ TARGETS = \
 	drone_fly_by \
 	duplicate_encoder \
 	eval_math_expression \
+	find_maximum_and_minimum \
 	find_missing_letter \
 	find_most_frequent \
 	find_the_odd_int \
