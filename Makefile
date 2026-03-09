@@ -13,6 +13,7 @@ TARGETS = \
 	century_from_year \
 	class_creation_skills \
 	coin_flips \
+	common_array_elements \
 	convert_time_to_string \
 	correct_time_string \
 	count_by_x \
