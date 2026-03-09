@@ -33,6 +33,7 @@ TARGETS = \
 	friend_or_foe \
 	from_pascal_to_cpp \
 	fun_with_operators \
+	get_array_average \
 	grazing_donkey \
 	hashtag_generator \
 	highest_scoring_word \
