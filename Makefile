@@ -23,6 +23,7 @@ TARGETS = \
 	determinant \
 	digitize \
 	disemvowel \
+	double_char \
 	drone_fly_by \
 	duplicate_encoder \
 	eval_math_expression \
@@ -39,6 +40,7 @@ TARGETS = \
 	hashtag_generator \
 	highest_scoring_word \
 	how_good_really \
+	how_much_i_love_you \
 	isograms \
 	is_square \
 	lazy_repeater \
