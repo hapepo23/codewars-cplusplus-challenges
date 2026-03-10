@@ -46,6 +46,7 @@ TARGETS = \
 	lazy_repeater \
 	leet_greek_case \
 	make_the_deadfish_swim \
+	mexican_wave \
 	most_frequent_item_count \
 	multiple_of_eleven \
 	mumbling \
