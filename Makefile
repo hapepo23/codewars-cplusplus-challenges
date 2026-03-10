@@ -79,6 +79,7 @@ TARGETS = \
 	sum_the_tree \
 	the_lift \
 	third_angle_triangle \
+	three_equations_three_unknowns \
 	unique_in_order \
 	vigenere_cipher_helper
 
